@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://images.news18.com/ibnlive/uploads/2025/09/image-2025-09-38352bd1948775f9a485118668e33704-16x9.jpg?impolicy=website&width=400&height=225);
+    background-position: center%;
+    }
