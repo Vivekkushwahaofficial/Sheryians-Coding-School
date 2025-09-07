@@ -61,4 +61,38 @@
 //     }
 // })()
 
-// 
+// What is PROTOTYPAL INHERITANCE?
+// that's exactily we're going to talk now, inheritence is basically passing parents's features or properties to 
+// their childrens, to do the same thing in javascript with the help of prototype(one extra property always given
+//  to every object) is called prototypal inheritence.
+// make an object calles human and put properties like, canfly, canTalk, willDie
+// var human = {
+//     name: "harsh",
+//     canFly: false,
+//     canTalk: true,      
+//     willDie: true
+// }
+// var SheryiansStudent = {
+// canMakeAmazingWebsites: true,
+// canMakeGames: true
+// } 
+// SheryiansStudent.__proto__ = human; // this line connects the two objects
+// now sheryiansStudent can access all the properties of human object
+// console.log(SheryiansStudent.canTalk); // true
+
+// jab bhi koi cheej {} brackets ke andar nahi hoti to hum use global scope kahte hain
+// var a = 12;
+// function abcd() {
+//     console.log(this.a); // 12
+// }
+// abcd();
+
+// ek function jo object ke andar h0, usse hum method kehte hai
+// var obj = {
+// name : "harsh",
+//     baatkaro: function() {
+//         console.log("this");
+//     }
+// }
+// obj.baatkaro();
+
